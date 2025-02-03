@@ -152,6 +152,37 @@
 
 // document.write(arr)
 
+  
+var out = [];
+
+out.push("Keyboard");
+out.push("Mouse");
+out.push("Printer");
+out.push("Monitor");
+
+
+document.write(`
+    input<br>
+    ${out[0]} <br>
+    out <br>
+    ${out.shift()} <br>
+
+
+     ${out[0]} <br>
+    out <br>
+    ${out.shift()} <br>
+
+     ${out[0]} <br>
+    out <br>
+    ${out.shift()} <br>
+
+     ${out[0]} <br>
+    out <br>
+    ${out.shift()} <br>
+
+    `)
+
+
 
 
 // var joen = arr.join("");
@@ -182,18 +213,18 @@
 //         `)
 
 
-var multi = [
+// var multi = [
 
-    [0,1,2,4],
-    [1,0,1,2],
-    [2,1,0,1],
+//     [0,1,2,4],
+//     [1,0,1,2],
+//     [2,1,0,1],
 
-];
+// ];
 
-document.write(`
-    ${multi[0]} <br>
-    ${multi[1]}<br>
-    ${multi[2]}
+// document.write(`
+//     ${multi[0]} <br>
+//     ${multi[1]}<br>
+//     ${multi[2]}
     
     
-    `)
+//     `)
